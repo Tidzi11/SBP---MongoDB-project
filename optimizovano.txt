@@ -1,0 +1,82 @@
+{
+  "us_flights_optimized": {
+    "_id": "64fae12b8f1a4b3c9d000001",
+    "FlightDate": "2023-07-12T00:00:00Z",
+    "Day_Of_Week": 3,
+    "Airline": "Example Air",
+    "Tail_number": "N123EX",
+    "Dep_Airport": "JFK",
+    "Arr_Airport": "LAX",
+    "Dep_CityName": "New York",
+    "Arr_CityName": "Los Angeles",
+    "DepTime_label": "Morning",
+    "Dep_Delay": 28,
+    "Dep_Delay_Tag": 1,
+    "Dep_Delay_Type": "Weather",
+    "Arr_Delay": 30,
+    "Arr_Delay_Type": "Weather",
+    "Flight_Duration": 360,
+    "Distance_type": "Long",
+    "Delay_Carrier": 0,
+    "Delay_Weather": 20,
+    "Delay_NAS": 5,
+    "Delay_Security": 0,
+    "Delay_LastAircraft": 3,
+    "Manufacturer": "Boeing",
+    "Model": "737-800",
+    "Aicraft_age": 12.4,
+    "dep_airport_embedded": {
+      "ident": "KJFK",
+      "type": "large_airport",
+      "name": "John F Kennedy Intl",
+      "elevation_ft": 13,
+      "local_code": "JFK",
+      "home_link": "https://www.jfkairport.com"
+    },
+    "arr_airport_embedded": {
+      "ident": "KLAX",
+      "type": "large_airport",
+      "name": "Los Angeles Intl",
+      "elevation_ft": 125
+    }
+  },
+
+  "weather_summary": {
+    "_id": "JFK",
+    "avg_temp": 12.3,
+    "avg_precipitation": 3.7,
+    "avg_snow": 0.2,
+    "avg_wind_speed": 15.4,
+    "avg_wind_direction": 200,
+    "avg_pressure": 1012.5,
+    "max_precipitation": 25.0,
+    "max_snow": 5.0,
+    "max_wind_speed": 48.0,
+    "days_with_precipitation": 120,
+    "days_with_snow": 5,
+    "days_with_high_wind": 22
+  },
+
+  "airport_infrastructure": {
+    "_id": "JFK",
+    "iata_code": "JFK",
+    "ident": "KJFK",
+    "type": "large_airport",
+    "name": "John F Kennedy Intl",
+    "elevation_ft": 13,
+    "local_code": "JFK",
+    "home_link": "https://www.jfkairport.com",
+    "municipality": "New York",
+    "runway_count": 4,
+    "has_asphalt_runway": true,
+    "has_lighted_runway": true,
+    "max_runway_length": 14572,
+    "has_displaced_threshold": true,
+    "frequency_count": 8,
+    "has_twr_frequency": true,
+    "city": "New York",
+    "state": "NY",
+    "latitude": 40.6413,
+    "longitude": -73.7781
+  }
+}
