@@ -1,0 +1,16 @@
+[
+    {
+        "query_name": "Query 1",
+        "avg_time_ms": 13177.6332060496,
+        "min_time_ms": 12830.313205718994,
+        "max_time_ms": 13376.203060150146,
+        "runs": 3
+    },
+    {
+        "query_name": "Query 2",
+        "avg_time_ms": 180.9070905049642,
+        "min_time_ms": 167.2983169555664,
+        "max_time_ms": 189.26525115966797,
+        "runs": 3
+    }
+]
